@@ -27,10 +27,11 @@ Then click the "GENERATE" button to download a zip file. Unzip the file. Then, m
 
 ## Build and Run
 
-```
-mkdir build
-cd build
-cmake ..
-make
+```bash
+git clone https://github.com/kawoosh3d/glinit # Clone this repo
+cd glinit
+mkdir build && cd build # Create build folder
+cmake .. # Create Makefile
+make # build executable
 ./glinit
 ```
